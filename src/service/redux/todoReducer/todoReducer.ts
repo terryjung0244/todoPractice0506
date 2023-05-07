@@ -1,9 +1,9 @@
 import { Reducer } from 'redux';
 import { TodoReducerState } from 'service/redux/todoReducer/todoReducer.interface';
-import { TodoActionsType } from 'service/redux/todoAction.interface';
+import { TodoActionsType } from 'service/redux/todoAction/todoAction.interface';
 
 const initialState: TodoReducerState = {
-  // todoList: []
+  todoList: []
 };
 
 const todoReducer: Reducer<TodoReducerState, TodoActionsType> = (
