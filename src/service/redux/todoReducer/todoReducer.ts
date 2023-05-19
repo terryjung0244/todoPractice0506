@@ -12,6 +12,7 @@ const todoReducer: Reducer<TodoReducerState, TodoActionsType> = (
 ): TodoReducerState => {
   switch (action.type) {
     case 'CREATE_TODO':
+      console.log(action.payload)
       return { ...state }
     default:
       return state;

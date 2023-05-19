@@ -1,4 +1,4 @@
-export interface CreateTodoStateType {
+export interface CreateTodoType {
   title: string;
   desc: string;
 }
