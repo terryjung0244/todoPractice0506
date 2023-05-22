@@ -1,0 +1,8 @@
+.app-main {
+  border: 2px solid red;
+  max-width: 1600px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}

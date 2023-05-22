@@ -1,12 +1,13 @@
-import CreateTodo from 'component/createTodo/CreateTodo'
-import React from 'react'
+import CreateTodo from "component/createTodo/CreateTodo";
+import React from "react";
+import "App.css";
 
 const App = () => {
   return (
-    <div>
-      <CreateTodo/>
+    <div className="app-main">
+      <CreateTodo />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

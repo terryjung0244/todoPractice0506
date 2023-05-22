@@ -13,7 +13,10 @@ const todoReducer: Reducer<TodoReducerState, TodoActionsType> = (
   switch (action.type) {
     case 'CREATE_TODO':
       console.log(action.payload)
-      return { ...state }
+      return { 
+        ...state,
+        todoList: [...state.todoList, action.payload] 
+      }
     default:
       return state;
   }
